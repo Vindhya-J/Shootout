@@ -1,0 +1,114 @@
+*{   
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgb(39, 5, 95);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background:linear-gradient(to bottom,black,rgb(39, 5, 95));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 450px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row{
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.teamname{
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 20px;
+}
+
+.score{
+    font-size: xx-large;
+    color: rgb(255, 254, 254);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+}
+
+.runs{
+    font-size: large;
+    color:rgb(255, 255, 255);
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strikebutton{
+    background: linear-gradient(to left,rgb(241, 227, 31),rgb(179, 45, 4));
+    width: 300px;
+    height: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    border-radius: 30px;
+    border-style: hidden;
+    outline: none;
+}
+
+#result{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+#reset{
+    background: linear-gradient(to left,rgb(241, 227, 31),rgb(179, 45, 4));
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    border-radius: 30px;
+    border-style: hidden;
+    outline: none;
+}
+
+.goal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: ridge ;
+}
